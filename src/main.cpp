@@ -4,7 +4,7 @@
 #include <Adafruit_SSD1306.h>
 #include <SoftwareSerial.h>
 #include <NewPing.h>
-// samir
+
 // --- Pin Definitions ---
 #define OLED_RESET     -1 
 #define SCREEN_ADDRESS 0x3C

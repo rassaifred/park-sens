@@ -77,6 +77,10 @@ void loop() {
     digitalWrite(RS485_CONTROL, HIGH); // Switch to Transmit
     rs485.print("Dist: ");
     rs485.println(distance);
+    // ----
+    Serial.print("Dist: ");
+    Serial.println(distance);
+    // ----
     delay(10); // Wait for transmission to finish
     digitalWrite(RS485_CONTROL, LOW);  // Switch back to Receive
     lastSend = millis();

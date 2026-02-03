@@ -1,1 +1,29 @@
-.pio
+# PlatformIO
+.pio/
+.cache/
+
+# VS Code
+.vscode/
+# Uncomment the following lines to include specific VS Code settings in version control
+# !.vscode/settings.json
+# !.vscode/tasks.json
+# !.vscode/launch.json
+# !.vscode/extensions.json
+
+# Dependencies
+.venv/
+/libdeps/
+
+# Compiled Firmware
+*.hex
+*.bin
+*.elf
+.firmware.hex
+.firmware.bin
+.firmware.elf
+
+# Miscellaneous
+.DS_Store
+ehthumbs.db
+*.stackdump
+*.ntvs*
